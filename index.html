@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Website</title>
+    <style>
+       #s{
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+       
+
+.links {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+    
+  
+}
+.link-green {
+    text-decoration: none;
+    background-color: #006400;
+    color: black;
+    padding: 10px;
+    
+    width: 100px;
+}
+.link-green:hover{
+    background-color: white;
+    border: solid green;
+}
+.link-grey {
+    text-decoration: none;
+    
+    color: #333;
+    padding: 10px;
+  
+    border-color: green;
+    width: 100px;
+}
+ul {
+    background-color: yellow;
+    list-style-type: square;
+    padding: 10px;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px;
+    
+}
+#heading-container {
+    
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    background-color: #ffa500;width: 67px;
+    
+    z-index: 10px;
+}
+
+#h {
+   width: 1000px;
+    color: black;
+}
+
+#p {
+    margin: 0;
+    padding-left: 0px; /* Padding to offset text from background*/ 
+    width: 1000px;
+}
+#sp{
+    background-color: yellow;
+    display: block; 
+    height: 50px;
+    width: 60px;
+}
+#s{
+    margin: 3px;
+    padding: 5px;
+    gap: 10px;
+}
+    </style>
+</head>
+<body>
+
+    
+           <!----<span id="s">Before Hover  </span>
+
+
+            <span id="s">  After Hover</span>-->
+       
+
+    <div class="links">
+        <a href="#" class="link-green">This is a link</a>
+       <!---- <a href="#" class="link-grey">This is a link</a>-->
+    </div>
+
+    
+        <ul >
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul><br><br>
+    
+
+   
+    
+        <div id="heading-container">
+            
+            <h1 id="h">This is a heading</h1>
+            <p id="p">Because the image has a z-index of -1, it will be placed behind the text.</p>
+        </div>
+    
+    
+    
+
+    <section>
+        <h2>The display Property</h2>
+        <h4 class="display-inline">display: inline</h4>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span style="background-color: yellow;display: inline;">Hello</span>
+        <span style="background-color: yellow;display:inline">there</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <h4 class="display-inline-block">display: inline-block</h4>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span style="background-color: yellow;display: inline-block; height: 50px;width: 60px;">Hello</span>
+        <span style="background-color: yellow;display: inline-block; height: 50px;width: 60px;">there</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <h4 class="display-block">display: block</h4>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span id="sp">Hello</span><br>
+        <span id="sp">there</span>
+        <span>This is text</span>
+        <span>This is text</span>
+        <span>This is text</span>
+    </section>
+
+</body>
+</html>
